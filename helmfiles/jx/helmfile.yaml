@@ -54,6 +54,8 @@ releases:
   name: local-external-secrets
   values:
   - jx-values.yaml
+- chart: jxgh/lighthouse-webui-plugin
+  name: lighthouse-webui-plugin
     #- chart: jxgh/jx-kh-check
     #version: 0.0.78
     #name: health-checks-jx
